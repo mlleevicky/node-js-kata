@@ -106,6 +106,11 @@ npm run start
 npm run lint
 npm run test
 ```
+##### How to seed database ?
+
+```bash
+npm run seed
+```
 
 ## Rating
 
