@@ -33,7 +33,6 @@ const csv = {
                 .pipe(csvParser({ separator: ';' , mapHeaders: ({ header, index }) => header.trim()}))
                 .on('data', (row) => {
                     if (row[args.field] == args.value){
-                        console.log(row[args.field]);
                         resolve(row);
                     }
                 })
